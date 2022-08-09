@@ -1,0 +1,64 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: hsl(212, 45%, 89%);
+}
+
+.card {
+  background: hsl(0, 0%, 100%);
+  width: 320px;
+  height: 500px;
+  border-radius: 20px;
+}
+
+.QRCodePicture {
+  margin: 15px auto;
+  width: 290px;
+  height: 290px;
+  background: url("images/image-qr-code.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  padding-bottom: 1px;
+}
+
+.text {
+  margin: -1px auto;
+  text-align: center;
+  width: 250px;
+  border-top: 1px solid transparent;
+}
+
+h1 {
+  color: hsl(218, 44%, 22%);
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  text-justify: inter-word;
+}
+
+p {
+  color: hsl(220, 15%, 55%);
+  font-size: 15px;
+  font-weight: 400;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
